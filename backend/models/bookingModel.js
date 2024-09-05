@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const bookingSchema = mongoose.Schema({
-    movieId:mongoose.Schema.Type.ObjectID,
+    movieId: mongoose.Schema.Types.ObjectId,
     userName: String,
     seats: Number
 });
