@@ -1,13 +1,31 @@
-exports.getMovies = (req,res,next)=>{
+const moviesModel=require("../models/moviesModel")
+
+exports.getMovies = async(req,res,next)=>{
+
+    const movies = await moviesModel.find({});
+
     res.json({
-        success: true,
-        message: "Get Movie is Working"
+        movies
     })
 }
 
-exports.getSingleMovies = (req,res,next)=>{
-    res.json({
-        success: true,
-        message: "Get Single Movie is Working"
-    })
+exports.getSingleMovies = async(req,res,next)=>{
+    try{
+        const movieID = await moviesModel.findById(req.params.id);
+
+        res.json({
+            movieID
+        })
+    }
+    catch(error){
+        res.status(404).json({
+            success:false,
+            message: "Unable to ge the Movie with the ID"
+        })
+    }
 }
+
+
+    
+
+    
