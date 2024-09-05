@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Goat",
+      "availableSeats": 120
+    },
+    {
+      "title": "Leo",
+      "availableSeats": 150
+    },
+    {
+      "title": "Vekkram",
+      "availableSeats": 100
+    },
+    {
+      "title": "Kaithi",
+      "availableSeats": 80
+    },
+    {
+      "title": "Jeo",
+      "availableSeats": 90
+    }
+]
+  
