@@ -39,27 +39,25 @@ exports.getBooking=async(req,res,next)=>{
 //cancle the booking
 
 exports.getBookingCancel = async (req, res, next) => {
-    const { username,  } = req.body; 
-    let movie = await moviesModel.findById(req.params.id );
+    const { userName } = req.body;
+    let movie = await moviesModel.findById(req.params.id);
     if (!movie) {
         return res.status(404).json({
             message: "Movie not Found"
         });
     }
 
-    const booking = await bookingModel.findOne({ movieId: movie._id, username });
+    const booking = await bookingModel.findOne({ movieId: movie._id, userName });
     if (!booking) {
         return res.status(404).json({
             message: "Booking not Found"
         });
     }
 
-   
     movie.availableSeats += booking.seats;
     await movie.save();
 
-    
-    await booking.remove();
+    await booking.deleteOne();  
 
     res.json({
         message: "Booking Canceled"
