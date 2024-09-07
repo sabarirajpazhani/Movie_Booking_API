@@ -20,7 +20,7 @@ exports.getBooking=async(req,res,next)=>{
 
     movie.availableSeats -=seats;
     await movie.save();
-
+    
     const booking = new bookingModel({
         movieId: movie._id,
         userName,
@@ -33,6 +33,8 @@ exports.getBooking=async(req,res,next)=>{
         booking
     });
 }
+
+
 
 //cancle the booking
 
