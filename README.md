@@ -118,3 +118,11 @@ exports.getBooking=async(req,res,next)=>{
 }
 
 ```
+
+**Request Body:**
+```javascript
+{
+  "userName": "JohnDoe",
+  "seats": 2
+}
+```
