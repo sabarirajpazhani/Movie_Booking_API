@@ -14,7 +14,9 @@ This API allows users to browse movies, book movie tickets, and cancel bookings.
 ## API Endpoints
 ### 1. Get All Movies
 **Endpoint:** `GET /api/v1/movies`
-Retrieves the list of all available movies.
+
+**Description:** Retrieves the list of all available movies.
+
 ```javascript
 exports.getMovies = async(req,res,next)=>{
 
@@ -45,7 +47,9 @@ exports.getMovies = async(req,res,next)=>{
 
 ### 2. Get a Single Movie by ID
 **Endpoint:** `GET /api/v1/movies/:id`
+
 **Description:** Fetches details of a movie based on its ID.
+
 ```javascript
 exports.getSingleMovies = async(req,res,next)=>{
     try{
