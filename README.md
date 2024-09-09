@@ -176,3 +176,8 @@ exports.getBooking=async(req,res,next)=>{
 ## Database Configuration
 The API uses MongoDB for storing movie and booking data. You can connect the database by setting the `DB_URL` in the `.env` file.
 
+## API Testing Visuals
+
+### 1. Get All Movies
+
+![image](https://github.com/user-attachments/assets/5910fbcf-d3ef-4df4-83ea-3639dfd4b5ba)
