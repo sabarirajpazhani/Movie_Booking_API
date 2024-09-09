@@ -157,5 +157,11 @@ exports.getBooking=async(req,res,next)=>{
 ```
 
 ## Models
-### Movie Model
+**Movie Model**
+```javascript
+{
+  "title": "string",
+  "availableSeats": "number"
+}
+```
 
