@@ -46,4 +46,21 @@ exports.getMovies = async(req,res,next)=>{
 ### 2. Get a Single Movie by ID
 **Endpoint:** `GET /api/v1/movies/:id`
 **Description:** Fetches details of a movie based on its ID.
+```javascript
+exports.getSingleMovies = async(req,res,next)=>{
+    try{
+        const movieID = await moviesModel.findById(req.params.id);
+
+        res.json({
+            movieID
+        })
+    }
+    catch(error){
+        res.status(404).json({
+            success:false,
+            message: "Unable to ge the Movie with the ID"
+        })
+    }
+}
+```
 
