@@ -25,3 +25,21 @@ exports.getMovies = async(req,res,next)=>{
     })
 }
 ```
+**Response Example:**
+```javascript
+{
+  "movies": [
+    {
+      "_id": "64fdd481d947c2e9c2a5375d",
+      "title": "Goat",
+      "availableSeats": 120
+    },
+    {
+      "_id": "64fdd481d947c2e9c2a5375e",
+      "title": "Leo",
+      "availableSeats": 150
+    }
+  ]
+}
+```
+
