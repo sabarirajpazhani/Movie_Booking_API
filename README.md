@@ -156,3 +156,6 @@ exports.getBooking=async(req,res,next)=>{
 }
 ```
 
+## Models
+### Movie Model
+
