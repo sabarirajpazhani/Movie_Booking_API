@@ -43,3 +43,7 @@ exports.getMovies = async(req,res,next)=>{
 }
 ```
 
+### 2. Get a Single Movie by ID
+**Endpoint:** `GET /api/v1/movies/:id`
+**Description:** Fetches details of a movie based on its ID.
+
