@@ -229,3 +229,17 @@ When developing and testing APIs, it's crucial to use reliable tools to ensure t
 
 - **Installation**: Available as a standalone application for Windows, macOS, and Linux.
 - **Website**: [Postman](https://www.postman.com/)
+<div align="center">
+  <img src="https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png" alt="insomnia-logo" width="200"/>
+</div>
+
+## 3. Insomnia
+
+**Insomnia** is another powerful REST API client that allows you to test and debug APIs with ease. It provides a simple interface and features for creating and managing requests.
+
+- **Installation**: Available as a standalone application for Windows, macOS, and Linux.
+- **Website**: [Insomnia](https://insomnia.rest/)
+
+<div align="center">
+  <img src="https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png" alt="insomnia-logo" width="200"/>
+</div>
