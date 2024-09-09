@@ -138,3 +138,21 @@ exports.getBooking=async(req,res,next)=>{
   }
 }
 ```
+
+### 4. Cancel a Booking
+**Endpoint:** POST /api/v2/movies/:id/cancel
+
+**Description:** Cancels a seat booking for a movie.
+**Request Body:**
+```javascript
+{
+  "userName": "JohnDoe"
+}
+```
+**Response Example:**
+```javascript
+{
+  "message": "Booking Canceled"
+}
+```
+
