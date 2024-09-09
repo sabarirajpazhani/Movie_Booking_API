@@ -186,9 +186,12 @@ The API uses MongoDB for storing movie and booking data. You can connect the dat
 
 ![image](https://github.com/user-attachments/assets/6f929b60-a676-48e1-8126-fad4298f8de2)
 
-## 3. Book a Seat for a Movie
+### 3. Book a Seat for a Movie
 
 ![image](https://github.com/user-attachments/assets/39ab5b12-4b57-411a-8847-9cf7d79206fc)
 
+### 4. Cancel a Booking
+
+![image](https://github.com/user-attachments/assets/56b125bc-efb0-4fb0-a84e-a4ed71d3ded2)
 
 
