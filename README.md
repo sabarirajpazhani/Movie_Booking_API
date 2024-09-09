@@ -64,3 +64,14 @@ exports.getSingleMovies = async(req,res,next)=>{
 }
 ```
 
+**Response Example:**
+```javascript
+{
+  "movieID": {
+    "_id": "64fdd481d947c2e9c2a5375d",
+    "title": "Goat",
+    "availableSeats": 120
+  }
+}
+```
+
