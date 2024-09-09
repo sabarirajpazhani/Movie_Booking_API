@@ -181,3 +181,8 @@ The API uses MongoDB for storing movie and booking data. You can connect the dat
 ### 1. Get All Movies
 
 ![image](https://github.com/user-attachments/assets/5910fbcf-d3ef-4df4-83ea-3639dfd4b5ba)
+
+### 2. Get a Single Movie by ID
+
+![image](https://github.com/user-attachments/assets/6f929b60-a676-48e1-8126-fad4298f8de2)
+
