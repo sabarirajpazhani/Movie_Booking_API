@@ -203,4 +203,4 @@ The API uses MongoDB for storing movie and booking data. You can connect the dat
 ### Movies
 ![image](https://github.com/user-attachments/assets/7e14bd07-7fb9-473e-97bc-afbe16863d90)
 
-
+## Technologies Used
