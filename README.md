@@ -79,3 +79,42 @@ exports.getSingleMovies = async(req,res,next)=>{
 }
 ```
 
+### 3. Book a Seat for a Movie
+**Endpoint:** POST `/api/v2/movies/:id/book`
+
+**Description:** Books a specific number of seats for a movie.
+
+```javascript
+exports.getBooking=async(req,res,next)=>{
+    const {userName, seats}= req.body;
+    let movie = await moviesModel.findById(req.params.id);
+    
+    if(!movie){
+        return res.status(404).json({
+            message: "Movie not Found"
+        })
+    }
+
+    if(movie.availableSeats < seats){
+        return res.status(400).json({
+            message:"Not enough avaible seats"
+        })
+    }
+
+    movie.availableSeats -=seats;
+    await movie.save();
+    
+    const booking = new bookingModel({
+        movieId: movie._id,
+        userName,
+        seats
+    });
+    await booking.save();
+
+    res.json({
+        message: "Booking Seccessful",
+        booking
+    });
+}
+
+```
