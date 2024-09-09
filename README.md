@@ -10,3 +10,5 @@ This API allows users to browse movies, book movie tickets, and cancel bookings.
 - **Get a single movie:** Retrieve details of a specific movie by its ID.
 - **Book a seat:** Book seats for a selected movie.
 - **Cancel a booking:** Cancel a seat booking for a selected movie.
+
+## API Endpoints
