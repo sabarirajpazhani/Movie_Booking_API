@@ -12,3 +12,5 @@ This API allows users to browse movies, book movie tickets, and cancel bookings.
 - **Cancel a booking:** Cancel a seat booking for a selected movie.
 
 ## API Endpoints
+### 1. Get All Movies
+**Endpoint:** `GET /api/v1/movies`
