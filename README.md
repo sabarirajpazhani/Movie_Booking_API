@@ -208,4 +208,24 @@ The API uses MongoDB for storing movie and booking data. You can connect the dat
   - Express.js
   - MongoDB
   - Mongoose
+# API Testing Tools
 
+When developing and testing APIs, it's crucial to use reliable tools to ensure that your endpoints function as expected. Here are some popular API testing tools that you can use:
+
+## 1. Thunder Client
+
+**Thunder Client** is a lightweight REST API client extension for Visual Studio Code. It provides a clean and user-friendly interface for sending HTTP requests and analyzing responses.
+
+- **Installation**: Available as a Visual Studio Code extension.
+- **Website**: [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a4ae7be2-6284-4898-83ac-313dc85ee238" alt="insomnia-logo" width="200"/>
+</div>
+
+## 2. Postman API
+
+**Postman** is one of the most widely used API testing tools. It offers a comprehensive suite of features for designing, testing, and managing APIs.
+
+- **Installation**: Available as a standalone application for Windows, macOS, and Linux.
+- **Website**: [Postman](https://www.postman.com/)
