@@ -126,3 +126,15 @@ exports.getBooking=async(req,res,next)=>{
   "seats": 2
 }
 ```
+**Response Example:**
+```javascript
+{
+  "message": "Booking Successful",
+  "booking": {
+    "_id": "64fdd48ad947c2e9c2a5375f",
+    "movieId": "64fdd481d947c2e9c2a5375d",
+    "userName": "JohnDoe",
+    "seats": 2
+  }
+}
+```
